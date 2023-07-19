@@ -56,7 +56,8 @@ func (h Header) Add(key, value string) {
 // To use non-canonical keys, assign to the map directly.
 func (h Header) Set(key, value string) {
     log.Println("fhttp header", key, value)
-	textproto.MIMEHeader(h).Set(key, value)
+	// textproto.MIMEHeader(h).Set(key, value)
+	textproto.MIMEHeader(h)[key] = []string{value}
 }
 
 // Get gets the first value associated with the given Key. If

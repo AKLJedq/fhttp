@@ -58,6 +58,7 @@ func (h Header) Set(key, value string) {
     log.Println("fhttp header", key, value)
 	// textproto.MIMEHeader(h).Set(key, value)
 	textproto.MIMEHeader(h)[key] = []string{value}
+	log.Println(textproto.MIMEHeader(h))
 }
 
 // Get gets the first value associated with the given Key. If

@@ -11,6 +11,7 @@ import (
 	"strings"
 	"sync"
 	"time"
+	"log"
 
 	"github.com/AKLJedq/fhttp/httptrace"
 )
@@ -54,6 +55,7 @@ func (h Header) Add(key, value string) {
 // canonicalized by textproto.CanonicalMIMEHeaderKey.
 // To use non-canonical keys, assign to the map directly.
 func (h Header) Set(key, value string) {
+    log.Println("fhttp header", key, value)
 	textproto.MIMEHeader(h).Set(key, value)
 }
 

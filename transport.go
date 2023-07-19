@@ -30,7 +30,7 @@ import (
 
 	tls "github.com/Danny-Dasilva/utls"
 
-	"github.com/Danny-Dasilva/fhttp/httptrace"
+	"github.com/AKLJedq/fhttp/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http/httpproxy"

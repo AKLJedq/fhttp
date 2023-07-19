@@ -7,7 +7,7 @@
 package http2
 
 import (
-	"github.com/Danny-Dasilva/fhttp/httptrace"
+	"github.com/AKLJedq/fhttp/httptrace"
 	"net/textproto"
 )
 

@@ -29,9 +29,9 @@ import (
 
 	tls "github.com/Danny-Dasilva/utls"
 
-	. "github.com/Danny-Dasilva/fhttp"
-	"github.com/Danny-Dasilva/fhttp/httptest"
-	"github.com/Danny-Dasilva/fhttp/httputil"
+	. "github.com/AKLJedq/fhttp"
+	"github.com/AKLJedq/fhttp/httptest"
+	"github.com/AKLJedq/fhttp/httputil"
 )
 
 type clientServerTest struct {

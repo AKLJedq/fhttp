@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/Danny-Dasilva/fhttp"
-	"github.com/Danny-Dasilva/fhttp/httptest"
+	http "github.com/AKLJedq/fhttp"
+	"github.com/AKLJedq/fhttp/httptest"
 )
 
 func newRequest(httpreq string) *http.Request {

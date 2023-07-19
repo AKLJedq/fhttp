@@ -15,8 +15,8 @@ import (
 
 	tls "github.com/Danny-Dasilva/utls"
 
-	. "github.com/Danny-Dasilva/fhttp"
-	"github.com/Danny-Dasilva/fhttp/httptest"
+	. "github.com/AKLJedq/fhttp"
+	"github.com/AKLJedq/fhttp/httptest"
 )
 
 func TestNextProtoUpgrade(t *testing.T) {

@@ -39,12 +39,12 @@ import (
 
 	tls "github.com/Danny-Dasilva/utls"
 
-	. "github.com/Danny-Dasilva/fhttp"
-	"github.com/Danny-Dasilva/fhttp/httptest"
-	"github.com/Danny-Dasilva/fhttp/httptrace"
-	"github.com/Danny-Dasilva/fhttp/httputil"
-	"github.com/Danny-Dasilva/fhttp/internal"
-	"github.com/Danny-Dasilva/fhttp/internal/nettrace"
+	. "github.com/AKLJedq/fhttp"
+	"github.com/AKLJedq/fhttp/httptest"
+	"github.com/AKLJedq/fhttp/httptrace"
+	"github.com/AKLJedq/fhttp/httputil"
+	"github.com/AKLJedq/fhttp/internal"
+	"github.com/AKLJedq/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )
